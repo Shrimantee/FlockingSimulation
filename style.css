@@ -1,0 +1,102 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+/* Styles the whole slider */
+.alignSlider{
+  width: 150px;
+  background-color: transparent;
+  
+  /* Removes some defaults */
+  -webkit-appearance: none;
+}
+
+
+/* These styles affect what happens when the cursor is focused on the slider (i.e. clicking it) */
+.alignSlider:focus {
+  
+  /* Stops the default outline showing up */
+  outline: none;
+}
+
+/* This is the "track" that the slider sits on  */
+.alignSlider::-webkit-slider-runnable-track {
+  background: #04464d;
+  height: 5px;
+  -webkit-appearance: none;
+  
+  /* Turns the cursor into the hand pointer icon when hovering over the slider  */
+  cursor: pointer;
+  
+}
+
+/* This is the moveable bit of the slider, known as the "thumb"*/
+.alignSlider::-webkit-slider-thumb {
+  width: 25px;
+  height: 25px;
+  background: url(align.png);
+  cursor: pointer;
+  -webkit-appearance: none;
+  
+  /* negative top padding moves it up */
+  margin-top: -10px;
+
+  
+  /* Border radius gives rounded corners, if they're big enough, you end up with circles */
+  border-radius: 10px;
+  
+}
+/* Styles the whole slider */
+.alignSlider{
+  width: 150px;
+  background-color: transparent;
+  
+  /* Removes some defaults */
+  -webkit-appearance: none;
+}
+
+
+/* These styles affect what happens when the cursor is focused on the slider (i.e. clicking it) */
+.alignSlider:focus {
+  
+  /* Stops the default outline showing up */
+  outline: none;
+}
+
+/* This is the "track" that the slider sits on  */
+.alignSlider::-webkit-slider-runnable-track {
+  background: #04464d;
+  height: 5px;
+  border-width: 1px;
+  border-style: ridge;
+  border-radius: 5px;
+  border-color: #92f1fc;
+  -webkit-appearance: none;
+  
+  /* Turns the cursor into the hand pointer icon when hovering over the slider  */
+  cursor: pointer;
+  
+}
+
+/* This is the moveable bit of the slider, known as the "thumb"*/
+.alignSlider::-webkit-slider-thumb {
+  width: 25px;
+  height: 25px;
+  background: cornflowerblue;
+  cursor: pointer;
+  -webkit-appearance: none;
+  border-width: 2px;
+  border-style: ridge;
+  border-color: #92f1fc;
+  /* negative top padding moves it up */
+  margin-top: -10px;
+
+  
+  /* Border radius gives rounded corners, if they're big enough, you end up with circles */
+  /* border-radius: 12px; */
+  
+}
